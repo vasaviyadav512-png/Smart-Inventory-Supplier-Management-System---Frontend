@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://smart-inventory-supplier-management-nh5q.onrender.com/api'
+  baseURL: 'https://smart-inventory-supplier-management-pm4d.onrender.com/api'
 });
 
 api.interceptors.request.use((config) => {
